@@ -5,6 +5,7 @@ body{
     font-weight: 400;
     font-style: normal;
     font-size: 20px;
+    margin: 0 0;
 }
 .table{
         width: 80%;
@@ -30,4 +31,21 @@ h1{
 }
 .table tbody>tr>td:last-child{
     text-align: right;
+}
+.table tbody tr:hover{
+    cursor: pointer;
+    background-color: slategray;
+    color: white;
+    font-weight: bold;
+}
+.table tbody tr{
+    transition: background-color 0.3s;
+}
+#container{
+    background-color: white;
+    box-shadow: 0 0 10px gray;
+    height: 100vh; /* vertical height */ 
+    padding: 15px;
+    margin: 0 auto;
+    width: 60%;
 }
